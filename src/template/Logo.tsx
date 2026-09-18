@@ -45,7 +45,7 @@ export default function Logo({ height = 32 }: LogoProps) {
           <g mask="url(#lobe-bench-logo-mask)">
             <image
               height="450"
-              href="/lobe-bench-mascot.png"
+              href={`${import.meta.env.BASE_URL}lobe-bench-mascot.png`}
               preserveAspectRatio="xMidYMid slice"
               width="470.769"
               x="-68"
