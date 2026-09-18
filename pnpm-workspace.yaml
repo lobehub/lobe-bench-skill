@@ -1,0 +1,2 @@
+minimumReleaseAgeExclude:
+  - '@lobehub/charts@5.5.1'

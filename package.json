@@ -1,0 +1,38 @@
+{
+  "name": "lobe-bench",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build-benchmark.mjs",
+    "build:bench": "node scripts/build-benchmark.mjs",
+    "preview": "vite preview --outDir output/column-chart-example"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.20.0",
+      "onFail": "download"
+    }
+  },
+  "dependencies": {
+    "@lobehub/charts": "^5.5.1",
+    "@lobehub/fluent-emoji": "^4.1.1",
+    "@lobehub/icons": "^5.18.0",
+    "@lobehub/ui": "^5.47.1",
+    "antd": "^6.6.4",
+    "antd-style": "^4.1.0",
+    "motion": "^13.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0"
+  }
+}

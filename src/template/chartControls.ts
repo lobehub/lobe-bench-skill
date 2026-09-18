@@ -1,0 +1,78 @@
+export const columnChartControls = (lineColor: string) => ({
+  barName: 'All 3 rounds passed / Pass³',
+  labelAngle: {
+    max: 0,
+    min: -90,
+    step: 1,
+    value: -66,
+  },
+  labelFontSize: {
+    max: 18,
+    min: 8,
+    step: 1,
+    value: 11,
+  },
+  lineColor,
+  lineName: 'Overall pass rate / Pass¹',
+  maxValue: 100,
+  showErrorBars: false,
+  showGridLines: true,
+  showLegend: true,
+  showLine: true,
+  showLineLabel: true,
+  showRank: false,
+  showTooltip: true,
+  showValueLabel: true,
+  showXAxis: false,
+  showYAxis: false,
+  sortOrder: {
+    options: ['descending', 'ascending', 'none'],
+    value: 'none',
+  },
+  unrankedLabel: 'Historical ranking retained · Step unranked',
+  valueLabelFontSize: {
+    max: 20,
+    min: 8,
+    step: 1,
+    value: 12,
+  },
+});
+
+export const rankingChartControls = () => ({
+  barSize: {
+    max: 40,
+    min: 12,
+    step: 1,
+    value: 24,
+  },
+  labelFontSize: {
+    max: 20,
+    min: 10,
+    step: 1,
+    value: 14,
+  },
+  maxValue: 100,
+  rowHeight: {
+    max: 64,
+    min: 28,
+    step: 1,
+    value: 40,
+  },
+  showErrorBars: false,
+  showGridLines: true,
+  showRank: true,
+  showTooltip: true,
+  showValueLabel: true,
+  showXAxis: false,
+  showYAxis: true,
+  sortOrder: {
+    options: ['descending', 'ascending', 'none'],
+    value: 'descending',
+  },
+  valueLabelFontSize: {
+    max: 20,
+    min: 8,
+    step: 1,
+    value: 14,
+  },
+});
